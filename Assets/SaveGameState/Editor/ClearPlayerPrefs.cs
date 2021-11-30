@@ -8,7 +8,7 @@ namespace SaveGameState.Editor
         [MenuItem("Tools/Clear Prefs")]
         private static void NewMenuOption()
         {
-            PlayerPrefs.DeleteAll();
+            PlayerPrefs.DeleteAll(); //
         }
         
     }
