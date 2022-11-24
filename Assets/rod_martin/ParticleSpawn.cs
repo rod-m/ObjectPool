@@ -16,7 +16,7 @@ public class ParticleSpawn : MonoBehaviour, IPoolAwake
     public void PoolAwake(Vector3 _pos, Quaternion _rot)
     {
         float xForce = Random.Range(-particleSpawnSetting.sideForce, particleSpawnSetting.sideForce);
-        float yForce = Random.Range(particleSpawnSetting.upForce / 2, particleSpawnSetting.upForce);
+        float yForce = Random.Range(0, particleSpawnSetting.upForce);
         float zForce = Random.Range(-particleSpawnSetting.sideForce, particleSpawnSetting.sideForce);
         gameObject.SetActive(true);
         transform.position = _pos;

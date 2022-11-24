@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96a5e173f3324d4f9f245f4c42200670, type: 3}
   m_Name: SpawnSetting
   m_EditorClassIdentifier: 
-  upForce: 20
-  sideForce: 1
+  upForce: 17.74
+  sideForce: 4.93
